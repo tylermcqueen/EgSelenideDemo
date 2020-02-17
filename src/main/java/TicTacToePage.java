@@ -13,7 +13,7 @@ public class TicTacToePage {
 
 
     public TicTacToePage() {
-        open("https://playtictactoe.org/");
+        open("https://web.archive.org/web/20200103004726/https://playtictactoe.org/");
     }
 
     public void clickASquare() {

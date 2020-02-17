@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class ThisIsATest {
+public class PageObjectExample {
 
     @BeforeTest
     public void setup(){
@@ -14,7 +14,7 @@ public class ThisIsATest {
     }
 
     @Test
-    public void testMethod() throws InterruptedException {
+    public void testMethod() {
         TicTacToePage ticTacToePage = new TicTacToePage();
 
         while(!ticTacToePage.isGameOver()){
